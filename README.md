@@ -14,7 +14,7 @@ The file **parameters.txt** provides parameter values in the order indicated at 
 
 Each execution of the program will scan through the **parameters.txt** file from top to bottom and will perform the simulation *i* times (*i* being the parameter defining the number of iterations) for the first line begining with an "*".
 
-While runining the * is replaced by an !. Once it is done, the "!" is replaced by an "#" and the program scans the **parameters.txt** file again to find the first line begining with an *. Multiple executions can thus be lauched to run in parallele on the same **parameters.txt** file. 
+While runining the **\*** is replaced by an !. Once it is done, the "!" is replaced by an # and the program scans the **parameters.txt** file again to find the first line begining with an \*. Multiple executions can thus be lauched to run in parallele on the same **parameters.txt** file. 
 
 Using gcc, the program can be compiled using the command `g++ -O3 *.cpp`.
 
