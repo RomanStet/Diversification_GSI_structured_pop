@@ -14,20 +14,19 @@ The file **parameters.txt** provides parameter values in the order indicated at 
 
 Each execution of the program will scan through the **parameters.txt** file from top to bottom and will perform the simulation *i* times (*i* being the parameter defining the number of iterations) for the first line begining with an "*".
 
-While runining the "*" is replaced by an "!". Once it is done, the "!" is replaced by an "#" and the program scans the "parameters.txt" file again to find the first line begining with an "*". Multiple executions can thus be lauched to run in parallele on the same **parameters.txt** file. 
+While runining the * is replaced by an !. Once it is done, the "!" is replaced by an "#" and the program scans the **parameters.txt** file again to find the first line begining with an *. Multiple executions can thus be lauched to run in parallele on the same **parameters.txt** file. 
 
-Using gcc, the program can be compiled using the command
-`g++ -O3 *.cpp`
-
+Using gcc, the program can be compiled using the command `g++ -O3 *.cpp`.
 
 ### One_step_mutation
 
-Performs the simulation with the 1-step mutation model as in Schierup et al., 1998. It was used to draw figures ...
+Performs the simulation with the 1-step mutation model as in Schierup (1998). It was used to draw figures ...
 
 ### Two_steps_mutation
 
-Performs the simulation with the 2-step mutation model as in Gervais et al., 2011. It was used to draw figures ...
+Performs the simulation with the 2-step mutation model as in Gervais et al. (2014). It was used to draw figures ...
 
 ### Two_steps_mutation_fitness_valley_crossing
 
-Same as "Two_steps_mutation" but records 
+Same as "Two_steps_mutation" but records the demes where each initial and compensatory mutations occur and the frequency of the ancestral S-haplotype
+in each deme when the compensatory mutation occurred. It was used to draw figures ...
