@@ -1,0 +1,2 @@
+State,Num,N,p,alleles_max,alleles_init,dp,ds,a,i,step,Usc,mUsc,generations,delta,stepg
+*,1,5000,5,20,5,0.001,0,0.8,1,0.1,0.005,1,1000000,0.9,100
