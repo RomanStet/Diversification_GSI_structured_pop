@@ -20,13 +20,13 @@ Using gcc, the program can be compiled using the command `g++ -O3 *.cpp`.
 
 ### One_step_mutation
 
-Performs the simulation with the 1-step mutation model as in Schierup (1998). It was used to draw figures ...
+Performs the simulation with the 1-step mutation model as in Schierup (1998). It was used to draw Figure S3.
 
 ### Two_steps_mutation
 
-Performs the simulation with the 2-step mutation model as in Gervais et al. (2014). It was used to draw figures ...
+Performs the simulation with the 2-step mutation model as in Gervais et al. (2014). It was used to draw Figure 4, 5, S1, S2, S4 and S5.
 
 ### Two_steps_mutation_fitness_valley_crossing
 
 Same as "Two_steps_mutation" but records the demes where each initial and compensatory mutations occur and the frequency of the ancestral S-haplotype
-in each deme when the compensatory mutation occurred. It was used to draw figures ...
+in each deme when the compensatory mutation occurred. It was used to draw Figure 6.
