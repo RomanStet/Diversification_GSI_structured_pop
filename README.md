@@ -4,7 +4,7 @@
 
 The programs simulate *N* diploid individuals with gametophytic self-incompatibility. Each individual has 2 copies of a chromosome each carrying an *S*-allele. The population is divided into *p* equally-sized demes. At each generation, pollen disperses between demes with probability *d<sub>p</sub>*.
 
-Each program produces a file "results.txt" which stores parameter values and the time length of the simulation, and another file (result_\'85txt) where each line gives the mean map length, mean fitness, mean number of deleterious alleles per chromosome and number of fixed deleterious alleles, measured at different generations.
+Each program produces a folder ("1_folder") which contains a file with the parameter values ("1_param_1.txt"), a file with the different variable measured at different generations ("1_results_1.txt") and a file with the final number of *S*-alleles and the frequency of self-compatible alleles ("1_paramgeneral.txt").
 
 The program uses the Mersenne Twister random number generator, and the file MersenneTwister.h (available from http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/VERSIONS/C-LANG/MersenneTwister.h) must be included in the program before compilation. Note that depending on your compiler, you may have to replace istream and ostream with std::istream and std:ostream in MersenneTwister.h.
 
