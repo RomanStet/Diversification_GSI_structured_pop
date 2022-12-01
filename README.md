@@ -18,11 +18,11 @@ Using gcc, the program can be compiled using the command `g++ -O3 *.cpp`.
 
 ### One_step_mutation
 
-Performs the simulation with the 1-step mutation model as in Schierup (1998). It was used to draw Figure S3.
+Performs the simulation with the 1-step mutation model as in Schierup (1998). It was used to draw Figure 7 and S3.
 
 ### Two_steps_mutation
 
-Performs the simulation with the 2-step mutation model as in Gervais et al. (2014). It was used to draw Figure 4, 5, S1, S2, S4 and S5.
+Performs the simulation with the 2-step mutation model as in Gervais et al. (2014). It was used to draw Figure 4, 5, 7, S1, S2, S4, S5 and S6.
 
 ### Two_steps_mutation_fitness_valley_crossing
 
